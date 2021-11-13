@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./asset/css/uikit-rtl.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./asset/js/uikit.min.js"></script>
+    <script src="./asset/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>gallery</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="uk-padding-small uk-container">
+        <nav class="uk-navbar-container mod-bg-white" data-uk-navbar>
+            <div id="modal-full" class="uk-modal-full uk-modal" data-uk-modal>
+                <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle mod-search-bg" data-uk-height-viewport>
+                    <button class="uk-modal-close-full" type="button" data-uk-close></button>
+                    <form class="uk-search uk-search-large">
+                        <input class="uk-search-input uk-text-center" type="search" placeholder="جستجو" autofocus>
+                    </form>
+                </div>
+            </div>
+            <div class="uk-hidden@m">
+                <div class="uk-navbar-right">
+                    <a class="uk-navbar-toggle" href="#" data-uk-toggle="target: #offcanvas">
+                        <span data-uk-navbar-toggle-icon></span>
+                    </a>
+                </div>
+                <div id="offcanvas" data-uk-offcanvas="flip:false; overlay: true">
+                    <div class="uk-offcanvas-bar uk-flex uk-flex-column mod-header-side">
+                        <div>
+                            <div>
+                                <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+                            </div>
+                            <div class="uk-flex uk-flex-right">
+                                <a class="mod-h-icon uk-float-right" href="#modal-full" data-uk-search-icon data-uk-toggle></a>
+                                <a href="#" class="mod-h-icon uk-float-right uk-margin-right uk-margin-left"><img src="asset/img/icon-telegram.svg" alt="" data-uk-svg></a>
+                                <a href="#" class="mod-h-icon"><img src="asset/img/ico-instagram.svg" alt="" data-uk-svg></a>
+                            </div>
+                        </div>
+                        <hr class="uk-margin">
+                        <ul class="uk-list uk-text-right" data-uk-margin>
+                            <li class="uk-active mod-l"><a href="index.html"><span data-uk-icon="icon:home"></span> صفحه اصلی </a></li>
+                            <li class="mod-l"><a href="products.html" ><span data-uk-icon="icon:thumbnails"></span> محصولات </a></li>
+                            <li class="mod-l"><a href="blog.html"><span data-uk-icon="icon:file-edit"></span> وبلاگ</a></li>
+                            <li class="mod-l"><a href="gallery.html"><span data-uk-icon="icon:image"></span> گالری</a></li>
+                            <li class="mod-l"><a href="about.html"><span data-uk-icon="icon:info"></span> درباره ما</a></li>
+                            <li class="mod-l"><a href="contact.html"> <span data-uk-icon="icon:mail"></span> تماس با ما</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-subnav uk-navbar-right uk-visible@m" data-uk-margin>
+                <a class="mod-nav-icon uk-navbar-toggle" href="#modal-full" data-uk-search-icon data-uk-toggle></a>
+                <a href="#" class="mod-nav-icon uk-margin-left"><img src="asset/img/icon-telegram.svg" alt="" data-uk-svg></a>
+                <a href="#" class="mod-nav-icon"><img src="asset/img/ico-instagram.svg" alt="" data-uk-svg></a>
+            </div>
+            <div class="uk-flex-center uk-navbar-center uk-visible@m">
+                <div class="uk-subnav uk-subnav-divider mod-menu mod-black">
+                    <a href="index.html">صفحه اصلی</a>
+                    <a href="products.html">محصولات</a>
+                    <a href="blog.html">وبلاگ</a>
+                    <a href="gallery.html">گالری</a>
+                    <a href="about.html">درباره ما</a>
+                    <a href="contact.html">تماس با ما</a>
+                </div>
+            </div>
+
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><img src="asset/img/Logo.svg" alt="" data-uk-svg></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-text-center uk-light uk-height-large" data-src="asset/img/Header-product.jpg" data-uk-img>
+
+    </div>
+    <div class="uk-section uk-margin-large-top">
+        <div class="uk-container uk-flex-center">
+            <h2 class="uk-text-muted uk-h4 uk-text-center">گالری تصاویر</h2>
+            <h3 class="uk-heading-line uk-text-center"><span class="uk-h2">مجموعه تصاویر مبلمان  </span></h3>
+            <p class="uk-padding mod-justify mod-black">
+                مبلمان خانه مبل ، به منظور رفاه حال مشتریان خود در سراسر کشور ، مراکز فروش متعددی را تشکیل داده است. مشتریان می توانند با توجه به مکان زندگی خود ، با نزدیکترین نماینده فروش تماس گرفته و یا به آنجا بروند و محصولات را از نزدیک دیده و از راهنمایی کارشناسان مبلمان رئال استفاده کنند. گارانتی محصولات رئال از تاریخ تحویل کالا شروع و به مدت دو سال خواهد بود. کل قسمت های محصولات شامل گارانتی بوده و موارد گارانتی از خود کارخانه بررسی می شود.
+            </p>
+            <div class="uk-margin-large"  data-uk-filter="target: .js-filter">
+
+                <ul class="uk-subnav mod-filter uk-flex-center uk-margin-medium-bottom">
+                    <li  data-uk-filter-control=".tag-sofa" class="uk-active uk-flex-center uk-margin-right uk-margin-left">
+                        <a href="#">
+                            <div class="mod-height-filter uk-flex uk-flex-center">
+                                <img class="mod-f" src="asset/img/sofa.svg" alt="" data-uk-svg>
+                            </div>
+                            <p class="uk-text-bold uk-text-center uk-margin-remove"> مبل راحتی</p>
+                        </a>
+                    </li>
+                    <li  data-uk-filter-control=".tag-classic" class="uk-flex-center uk-margin-right uk-margin-left">
+                        <a href="#">
+                            <div class="mod-height-filter uk-flex uk-flex-center">
+                                <img class="mod-f" src="asset/img/sofa-classic.svg" alt="" data-uk-svg>
+                            </div>
+                            <p class="uk-text-bold uk-text-center uk-margin-remove">مبل کلاسیک</p>
+                        </a>
+                    </li>
+                    <li  data-uk-filter-control=".tag-single" class="uk-flex-center uk-margin-right uk-margin-left">
+                        <a href="#">
+                            <div class="mod-height-filter uk-flex uk-flex-center">
+                                <img class="mod-f" src="asset/img/sofa-single.svg" alt="" data-uk-svg>
+                            </div>
+                            <p class="uk-text-bold uk-text-center uk-margin-remove"> مبل تکی</p>
+                        </a>
+                    </li>
+                    <li  data-uk-filter-control=".tag-bed" class="uk-flex-center uk-margin-right uk-margin-left">
+                        <a href="#">
+                            <div class="mod-height-filter uk-flex uk-flex-center">
+                                <img src="asset/img/sleep.svg" alt="" data-uk-svg>
+                            </div>
+                            <p class="uk-text-bold uk-text-center uk-margin-remove">تخت</p>
+                        </a>
+                    </li>
+                    <li  data-uk-filter-control=".tag-computer" class="uk-flex-center uk-margin-right uk-margin-left">
+                        <a href="#">
+                            <div class="mod-height-filter uk-flex uk-flex-center">
+                                <img src="asset/img/computer.svg" alt="" data-uk-svg>
+                            </div>
+                            <p class="uk-text-bold uk-text-center uk-margin-remove">میز کامپیوتر</p>
+                        </a>
+                    </li>
+                    <li  data-uk-filter-control=".tag-tv" class="uk-flex-center uk-margin-right uk-margin-left">
+                        <a href="#">
+                            <div class="mod-height-filter uk-flex uk-flex-center">
+                                <img src="asset/img/tv.svg" alt="" data-uk-svg>
+                            </div>
+                            <p class="uk-text-bold uk-text-center uk-margin-remove"> میز تلویزیون</p>
+                        </a>
+                    </li>
+                    <li  data-uk-filter-control=".tag-buffet" class="uk-flex-center uk-margin-right uk-margin-left">
+                        <a href="#">
+                            <div class="mod-height-filter uk-flex uk-flex-center">
+                                <img src="asset/img/buffet.svg" alt="" data-uk-svg>
+                            </div>
+                            <p class="uk-text-bold uk-text-center uk-margin-remove"> بوفه</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center"  data-uk-grid data-uk-lightbox="animation: slide">
+                    <li class="tag-sofa">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img1.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img1.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-sofa">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img2.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img2.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-sofa">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img3.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img3.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-sofa">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img6.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img6.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-classic">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img4.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img4.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-classic">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img1.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img1.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-classic">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img3.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img3.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-single">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img6.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img6.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-single">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img5.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img5.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-single">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img4.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img4.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-bed">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img2.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img2.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-bed">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img3.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img3.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-bed">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img1.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img1.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-tv">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img3.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img3.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-tv">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img1.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img1.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-tv">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img2.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img2.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-computer">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img1.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img1.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-computer">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img2.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img2.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-computer">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img3.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img3.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-buffet">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img1.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img1.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-buffet">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img2.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img2.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                    <li class="tag-buffet">
+                        <a class="uk-inline uk-align-center" href="asset/img/Gallery-img3.jpg">
+                            <img class="mod-radius" src="asset/img/Gallery-img3.jpg" alt="" data-uk-img>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="uk-section-large uk-background-muted">
+        <div class="uk-container uk-flex-center uk-flex-middle">
+            <h2 class="uk-text-center mod-black">عضویت در خبرنامه</h2>
+            <p class="uk-padding mod-justify uk-text-center">
+                برای اطلاع از اخرین اخبار مربوط به حانه مبل در خبرنامه عضو شوید.
+            </p>
+            <form>
+                <div class="uk-margin uk-flex uk-flex-center" data-uk-margin>
+                    <div class="uk-margin-small-left" data-uk-form-custom="target: true">
+                        <input class="uk-input mod-reg-input" type="text" placeholder="ایمیل خود را وارد کنید">
+                    </div>
+                    <button class="uk-button uk-button-default mod-reg-button">عضویت</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="uk-section uk-padding-remove-bottom">
+        <div class="uk-container">
+            <div data-uk-grid>
+                <div class="uk-width-2-5@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                    <img src="asset/img/Logo.svg" alt="" data-uk-svg>
+                    <p class="uk-text-justify uk-padding-small uk-padding-remove-top uk-padding-remove-right">
+                        فروشگاه خانه مبل با سابقه دیرینه در صنعت مبلمان و محصولات چوبی، با افتخار به عرض می رساند این فروشگاه با عرضه با کیفیت ترین مصنوعات چوبی قدمی شگرف در صنعت مبلمان و دکوراسیون برای رضایتمندی شما سروران عزیز برداشته است. اکثر محصولات دیجی چوب باضمانت نامه منحصر به فرد دیجی چوب ارائه می گردد. </p>
+                    <ul class="uk-subnav mod-footer-icons" data-uk-margin>
+                        <li class="mod-net"><a href="#"><img src="asset/img/icon-telegram.svg" alt="" data-uk-svg></a></li>
+                        <li><a href="#"><img src="asset/img/ico-twiter.svg" alt="" data-uk-svg></a></li>
+                        <li><a href="#"><img src="asset/img/icon-whatsapp.svg" alt="" data-uk-svg></a></li>
+                        <li><a href="#"><img src="asset/img/ico-instagram.svg" alt="" data-uk-svg></a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                    <h2 class="uk-h4 mod-black">دسترسی سریع</h2>
+                    <hr class="mod-short-hr">
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">صفحه اصلی</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">درباره ما</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">وبلاگ</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">محصولات</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">گالری تصاویر</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">تماس با ما</a>
+                    </div>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                    <h2 class="uk-h4 mod-black">محصولات ویژه</h2>
+                    <hr class="mod-short-hr">
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">مبل راحتی</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">میز</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">صندلی</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">میز کامپیوتر</a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">میز تلویزیون </a>
+                    </div>
+                    <div>
+                        <a class="mod-grey uk-button uk-button-text" href="#">بوفه</a>
+                    </div>
+                </div>
+                <div class="uk-width-1-5@m uk-width-1-2@s uk-width-1-1" data-uk-margin>
+                    <h2 class="uk-h4 mod-black">راه ارتباطی</h2>
+                    <hr class="mod-short-hr">
+                    <div class="uk-margin">
+                        <img src="asset/img/ico-address.svg" alt="" data-uk-svg>
+                        <span class="mod-grey">گیلان رشت سبزه میدان خانه مبل</span>
+                    </div>
+                    <div class="uk-margin">
+                        <img src="asset/img/ico-phone.svg" alt="" data-uk-svg>
+                        <span class="mod-grey">013-33333333</span>
+                        <span class="mod-grey">/</span>
+                        <span class="mod-grey">013-22222222</span>
+                    </div>
+                    <div class="uk-margin">
+                        <img src="asset/img/ico-mail.svg" alt="" data-uk-svg>
+                        <span class="mod-grey">sofa@email.com</span>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="uk-child-width-1-2@s uk-child-width-1-1 uk-margin-bottom uk-text-small" data-uk-grid>
+                <div class="uk-text-right@s uk-text-center">کلیه حقوق مدیران محفوظ است</div>
+                <div class="uk-text-left@s uk-text-center">
+                    CopyRight modiran art 2018.All Right Served
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
